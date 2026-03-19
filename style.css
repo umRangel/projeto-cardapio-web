@@ -1,0 +1,82 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: rgb(78, 214, 255);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Define imagem de banner da página */
+
+.banner{
+    background-image: url(images/banner-cafeteria.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content{
+    width: 80%;
+}
+
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.rem;
+    margin-bottom: 1rem;
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #ffca28;
+}
+
+nav a:hover{
+    background-color: #ffeb3b;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria{
+    margin-bottom: 2rem;
+}
+
+.produto{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
