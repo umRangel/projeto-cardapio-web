@@ -2,20 +2,17 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #6D4C41;
 }
 
 header{
-    background-color: rgb(78, 214, 255);
+    background-color: #F5EDE4;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
 
-/* Define imagem de banner da página */
-
 .banner{
-    background-image: url(images/banner-cafeteria.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -23,8 +20,7 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .banner-content{
@@ -32,11 +28,13 @@ header{
 }
 
 .banner h1{
+    color: #2E1F1B;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .banner p{
+    color: #6D4C41;
     font-size: 1.rem;
     margin-bottom: 1rem;
 }
@@ -47,11 +45,12 @@ nav a{
     margin: 0.1rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    background-color: #ffca28;
+    background-color: #C69C6D;
 }
 
 nav a:hover{
-    background-color: #ffeb3b;
+    color: #F5EDE4;
+    background-color: #6D4C41;
 }
 
 main{
