@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #F5EDE4;
-    color: #fff;
+    color: #333;
     text-align: center;
     padding: 1rem 0;
 }
@@ -87,9 +87,10 @@ main {
 }
 
 .adicionar,
-#finalizar-pedido {
+#finalizar-pedido, .redes-sociais a {
     color: #333;
     text-decoration: none;
+    display: inline-block;
     margin: 0.1rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -111,18 +112,21 @@ main {
 
 #contatos {
     text-align: center;
+    padding: 2rem;
+    border-radius: 4px;
     margin-top: 2rem;
+    background-color: #F5EDE4;
 }
 
-.redes-sociais a {
-    background-color: #F5EDE4;
+/* .redes-sociais a {
+    background-color: #C69C6D;
     color: #333;
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
     margin: 0.5rem;
-}
+} */
 
 footer {
     text-align: center;
